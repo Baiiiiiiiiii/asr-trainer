@@ -149,3 +149,12 @@ cython_debug/
 kenlm
 sweep_commonvoice.yaml
 runner.sh
+
+wandb/
+*.data/
+*-default/
+checkpoint-*/
+hubert-*/
+*.yaml
+*.csv
+*.txt

@@ -7,6 +7,7 @@ def cer_cal(groundtruth, hypothesis):
     for p, t in zip(hypothesis, groundtruth):
         err += float(ed.eval(p.lower(), t.lower()))
         tot += len(t)
+
     return err / tot
 
 
